@@ -3,7 +3,7 @@
 		$(this).fadeOut();
 	})
 
-	var call = '<div class="prueb">'+
+	var call = '<div class="pruebc">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -19,7 +19,7 @@
 					'</div>'+
 				'</div>'
 
-	var sms = '<div class="prueb">'+
+	var sms = '<div class="pruebs">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -35,7 +35,7 @@
 					'</div>'+
 				'</div>'
 
-	var impreso = '<div class="prueb">'+
+	var impreso = '<div class="pruebi">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -51,7 +51,7 @@
 					'</div>'+
 				'</div>'
 
-	var mail = '<div class="prueb">'+
+	var mail = '<div class="pruebm">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -67,7 +67,7 @@
 					'</div>'+
 				'</div>'
 
-	var push = '<div class="prueb">'+
+	var push = '<div class="pruebp">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -118,31 +118,31 @@
 //botones modales
 
 	$('#sms-boton').on('click', function(){
-		$('').append(sms);
+		$('.prueb').after(sms);
 		$('.menu-item').hide();
 		$('.modal-dismis, #sms').fadeOut();
 	})
 
 	$('#mail-boton').on('click', function(){
-		$('.prueb').append(mail);
+		$('.prueb').after(mail);
 		$('.menu-item').hide();
 		$('.modal-dismis, #mail').fadeOut();
 	})
 
 	$('#call-boton').on('click', function(){
-		$('.prueb').append(call);
+		$('.prueb').after(call);
 		$('.menu-item').hide();
 		$('.modal-dismis, #call').fadeOut();
 	})
 
 	$('#impreso-boton').on('click', function(){
-		$('.prueb').append(impreso);
+		$('.prueb').after(impreso);
 		$('.menu-item').hide();
 		$('.modal-dismis, #impreso').fadeOut();
 	})
 
 	$('#push-boton').on('click', function(){
-		$('.prueb').append(push);
+		$('.prueb').after(push);
 		$('.menu-item').hide();
 		$('.modal-dismis, #push').fadeOut();
 	})

@@ -30,12 +30,12 @@
       </div>
       
       <div class="row body-page">
-        <div class="col-xs-12">
+        <div class="col-xs-12 over">
           <div class="sectiondos">
             <div class="add-detonador">
               <button type="button" id="inica-camp" class="but-det"><span class="fa fa-plus-circle"></span>Agregar denotador inicial</button>
             </div>
-            <!--menu-->
+            <!--menu
              <div class="menu-item t-left" id="desplegar-menu2">
               <ul>
                 <li id="m-impreso"><img src="images/impreso-icon.png" alt=""><span>IMPRESO</span></li>
@@ -45,14 +45,15 @@
                 <li id="m-push"><img src="images/push-icon.png" alt=""><span>PUSH NOTIFICACIÓN</span></li>
               </ul>
             </div>
-            <!--fin menu-->
+            fin menu-->
             <div class="estadisticas-g">
               <div class="fa fa-line-chart grap-uno"><span class="fa-dif on-xs">Estadísticas generales</span></div>
             </div>
           </div>
         </div>
         <!--diagrama-->
-        <div class="col-xs-12">
+        <div class="col-xs-12 over">
+        
           <div class="prueb">
             <div class="inicio-camp">
               <div class="primero">
