@@ -1,0 +1,205 @@
+@media(max-width:1750px) {
+button.det-2{
+	margin-top:29%;
+}
+
+.glyphicon-calendar{
+margin-left:20px;
+
+}
+
+.glyphicon-dashboard{
+margin-left:20px;
+
+}
+
+.height-cel-cont{
+	height: 722px;
+}
+
+}
+
+@media(max-width:1550px) {
+	.margin-box-url{
+		margin-left:30px;
+		margin-top: 10px;
+	}
+
+.borders{
+	padding-left:30px;
+}
+
+a.butons-reg{
+font-size: 12px;
+}
+
+}
+
+@media(max-width:1450px) {
+	button.button-detonadores{
+	font-size:8px;
+	margin-left:6%;
+}
+
+	.margin-box-url{
+		margin-left:70px;
+		margin-top: 10px;
+	}
+
+	input.form-diseno-app{
+	width:230px;
+}
+
+button.det-2{
+	margin-top:31%;
+}
+
+p.nota{
+	margin-left: 70px;
+}
+
+a.selec-im{
+	margin-left: 70px;
+}
+
+.back-white2{
+    margin-top:3%;
+}
+
+.borders{
+	padding-left:20px;
+}
+
+.glyphicon-calendar{
+margin-left:10px;
+
+}
+
+.glyphicon-dashboard{
+margin-left:10px;
+
+}
+
+input.input-time{
+	width:80px;
+}
+
+a.butons-reg{
+font-size: 11px;
+padding-left:15px;
+padding-right:15px;
+}
+
+}
+
+@media(max-width:1350px) {
+	button.button-detonadores{
+
+	font-size:8px;
+	margin-left:-3%;
+}
+
+p.color-code{
+	padding: 0px;
+}
+
+.borders{
+	padding-left:10px;
+}
+
+input.input-time{
+	width:70px;
+}
+
+}
+
+
+@media(max-width:1250px) {
+	button.button-detonadores{
+
+	font-size:8px;
+	margin-left:-15%;
+}
+
+    .back-white2{
+    margin-top:4%;
+}
+
+	input.form-diseno-app{
+	width:170px;
+}
+
+input.input-time{
+	width:60px;
+}
+
+a.butons-reg{
+padding-left:10px;
+padding-right:10px;
+}
+
+
+
+}
+
+
+@media(max-width:1200px) {
+
+input.input-index2{
+	width: 240px;
+}
+
+input.input-index{
+width: 110px;
+}
+
+a.butons-reg{
+font-size: 10px;
+padding-left:10px;
+padding-right:10px;
+}
+
+
+}
+
+
+@media(max-width:1150px) {
+	button.button-detonadores{
+	font-size:6px;
+	margin-left:-23%;
+}
+
+button.det-2{
+	margin-top:34%;
+}
+
+input.form-diseno-app{
+	width:190px;
+}
+
+.borders{
+	padding-left:5px;
+}
+
+.glyphicon-calendar{
+margin-left:5px;
+
+}
+
+.glyphicon-dashboard{
+margin-left:5px;
+
+}
+
+input.input-time{
+	width:50px;
+}
+
+a.butons-reg{
+font-size:9px;
+padding-left:4px;
+padding-right:4px;
+}
+
+
+}
