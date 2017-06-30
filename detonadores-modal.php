@@ -24,8 +24,17 @@
                  
                   <div  class="col-md-11">
                      <h3 class="list-det">Lista de Detonadores</h3>
-                     <a href="#">Generar Detonador</a>
-                  </div>
+                     <a href="#desplegar-detonadores">Generar Detonador</a>
+                     <div class="menu-item t-left" id="desplegar-detonadores">
+                      <ul>
+                       <li id="m-impreso"><img src="images/qr-redondo.png" alt=""><span>CÓDIGO QR</span></li>
+                       <li id="m-mail"><img src="images/trigger-redondo.png" alt=""><span>IMAGEN TRIGGER</span></li>
+                       <li id="m-sms"><img src="images/barras-redondo.png" alt=""><span>CÓDIGO DE BARRAS</span></li>
+                       <li id="m-call"><img src="images/iverify-redondo.png" alt=""><span>IMAGEN VERIFY</span></li>
+                       <li id="m-push"><img src="images/averify-redondo.png" alt=""><span>AUDIO VERIFY</span></li>
+                    </ul>
+                 </div>
+              </div>
 
 
                   <div class="col-md-11">
