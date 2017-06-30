@@ -1031,7 +1031,7 @@ p.color-code{
 .guardar-col{
 	text-align: right;
 	margin-top:6%;
-	margin-left: -7%;
+	padding-bottom: 15px;
 }
 
 a.guardar{
@@ -1060,6 +1060,7 @@ select.form-d-campana{
 .caja-select{
 	border-bottom: 1px solid black;
 	width:350px;
+	margin-left: 1px;
 }
 
 /* switch button */
@@ -1138,6 +1139,71 @@ tr.hover-table:hover{
 	color: white !important;
 }
 
+.line-modal{
+	border-left: solid 1px black;
+	height: 577px;
+}
+
+
+
+.vertical-menu a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+a.hover-icon-qr{
+	background-image: url(../images/qr-gris.png);
+	width: 70px;
+	height:70px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	margin-top: 30px;
+}
+
+a.hover-icon-qr:hover{
+	background-image: url(../images/qr-b.png);
+	opacity: .8;
+	background-color:#55acee;
+	background-repeat:no-repeat;
+}
+
+
+a.hover-icon-brocha{
+	background-image: url(../images/brocha-gris.png);
+	width: 70px;
+	height:70px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	margin-top: 30px;
+
+}
+
+a.hover-icon-brocha:hover{
+	background-image: url(../images/brocha.png);
+	opacity: .8;
+	background-color:#55acee;
+	background-repeat:no-repeat;
+}
+
+a.hover-icon-coete{
+	background-image: url(../images/coete-gris.png);
+	width: 70px;
+	height:70px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	margin-top: 30px;
+}
+
+a.hover-icon-coete:hover{
+	background-image: url(../images/coete-b.png);
+	opacity: .8;
+	background-color:#55acee;
+	background-repeat:no-repeat;
+}
 
 
 

@@ -90,6 +90,10 @@ padding-left:15px;
 padding-right:15px;
 }
 
+.cancelar-b{
+	margin-left: 60px;
+}
+
 }
 
 @media(max-width:1350px) {
@@ -158,6 +162,11 @@ font-size: 10px;
 padding-left:10px;
 padding-right:10px;
 }
+
+.cancelar-b{
+	margin-left:0px;
+}
+
 
 
 }
