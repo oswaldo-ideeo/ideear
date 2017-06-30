@@ -35,6 +35,17 @@
             <div class="add-detonador">
               <button type="button" id="inica-camp" class="but-det"><span class="fa fa-plus-circle"></span>Agregar denotador inicial</button>
             </div>
+            <!--menu-->
+             <div class="menu-item t-left" id="desplegar-menu2">
+              <ul>
+                <li id="m-impreso"><img src="images/impreso-icon.png" alt=""><span>IMPRESO</span></li>
+                <li id="m-mail"><img src="images/mail-icon.png" alt=""><span>MAILING</span></li>
+                <li id="m-sms"><img src="images/sms-icon.png" alt=""><span>SMS</span></li>
+                <li id="m-call"><img src="images/call-icon.png" alt=""><span>LLAMADA</span></li>
+                <li id="m-push"><img src="images/push-icon.png" alt=""><span>PUSH NOTIFICACIÓN</span></li>
+              </ul>
+            </div>
+            <!--fin menu-->
             <div class="estadisticas-g">
               <div class="fa fa-line-chart grap-uno"><span class="fa-dif on-xs">Estadísticas generales</span></div>
             </div>
@@ -48,15 +59,102 @@
                 <div class="d-inblock">
                   <img src="images/impreso-icon.png" alt="">
                 </div>
-                <p class="titulo-c d-inblock">Impreso detonador</p>
+                <p class="titulo-c d-inblock">Impreso detonador <span>ID:001</span></p>
               </div>
               <div class="segundo">
                 <div class="fa fa-calendar d-inblock"></div>
-                <div class="fa fa-bar-chart d-inblock"></div>
+                <div class="fa fa-bar-chart d-inblock porcent"><span>10%</span></div>
+                <div class="mas fa fa-plus-circle" id="unos"></div>
+              </div>
+            </div>
+
+
+            <div class="menu-item t-right" id="desplegar-menu">
+              <ul>
+                <li id="m-impreso"><span>IMPRESO</span><img src="images/impreso-icon.png" alt=""></li>
+                <li id="m-mail"><span>MAILING</span><img src="images/mail-icon.png" alt=""></li>
+                <li id="m-sms"><span>SMS</span><img src="images/sms-icon.png" alt=""></li>
+                <li id="m-call"><span>LLAMADA</span><img src="images/call-icon.png" alt=""></li>
+                <li id="m-push"><span>PUSH NOTIFICACIÓN</span><img src="images/push-icon.png" alt=""></li>
+              </ul>
+            </div>
+
+          </div>
+
+
+
+<!--templates items-->
+<!--ocultos
+          <div class="prueb">
+            <div class="inicio-camp">
+              <div class="primero">
+                <div class="d-inblock">
+                  <img src="images/sms-icon.png" alt="">
+                </div>
+                <p class="titulo-c d-inblock">SMS Fase 1<span>ID:002</span></p>
+              </div>
+              <div class="segundo">
+                <div class="fa fa-calendar d-inblock"></div>
+                <div class="fa fa-bar-chart d-inblock porcent"><span>20%</span></div>
                 <div class="mas fa fa-plus-circle" id="unos"></div>
               </div>
             </div>
           </div>
+
+
+          <div class="prueb">
+            <div class="inicio-camp">
+              <div class="primero">
+                <div class="d-inblock">
+                  <img src="images/mail-icon.png" alt="">
+                </div>
+                <p class="titulo-c d-inblock">Mailing invitación<span>ID:003</span></p>
+              </div>
+              <div class="segundo">
+                <div class="fa fa-calendar d-inblock"></div>
+                <div class="fa fa-bar-chart d-inblock porcent"><span>12%</span></div>
+                <div class="mas fa fa-plus-circle" id="unos"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="prueb">
+            <div class="inicio-camp">
+              <div class="primero">
+                <div class="d-inblock">
+                  <img src="images/call-icon.png" alt="">
+                </div>
+                <p class="titulo-c d-inblock">Call agradecimiento<span>ID:004</span></p>
+              </div>
+              <div class="segundo">
+                <div class="fa fa-calendar d-inblock"></div>
+                <div class="fa fa-bar-chart d-inblock porcent"><span>15%</span></div>
+                <div class="mas fa fa-plus-circle" id="unos"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="prueb">
+            <div class="inicio-camp">
+              <div class="primero">
+                <div class="d-inblock">
+                  <img src="images/push-icon.png" alt="">
+                </div>
+                <p class="titulo-c d-inblock">Push notificación<span>ID:005</span></p>
+              </div>
+              <div class="segundo">
+                <div class="fa fa-calendar d-inblock"></div>
+                <div class="fa fa-bar-chart d-inblock porcent"><span>75%</span></div>
+                <div class="mas fa fa-plus-circle" id="unos"></div>
+              </div>
+            </div>
+          </div>
+-->
+<!--templates item fin-->
+
+
         </div>
         <!--diagrama fin-->
       </div>
@@ -147,7 +245,8 @@
 
         <div class="col-sm-12">
           <div class="botones-modal t-center">
-            <input type="reset" name="" value="Cancelar" class="b-modal b-gris" id="close-modal"><button type="submit" class="b-modal">Guardar</button>
+            <input type="reset" name="" value="Cancelar" class="b-modal b-gris" id="close-modal">
+            <button type="button" class="b-modal" id="sms-boton">Guardar</button>
           </div>
         </div>
 
@@ -244,7 +343,8 @@
 
         <div class="col-sm-12">
           <div class="botones-modal t-center">
-            <input type="reset" name="" value="Cancelar" class="b-modal b-gris" id="close-modal"><button type="submit" class="b-modal">Guardar</button>
+            <input type="reset" name="" value="Cancelar" class="b-modal b-gris" id="close-modal">
+            <button type="button" class="b-modal" id="mail-boton">Guardar</button>
           </div>
         </div>
 
@@ -341,7 +441,8 @@
 
         <div class="col-sm-12">
           <div class="botones-modal t-center">
-            <input type="reset" name="" value="Cancelar" class="b-modal b-gris" id="close-modal"><button type="submit" class="b-modal">Guardar</button>
+            <input type="reset" name="" value="Cancelar" class="b-modal b-gris" id="close-modal">
+            <button type="button" class="b-modal" id="call-boton">Guardar</button>
           </div>
         </div>
 
@@ -450,7 +551,8 @@
 
         <div class="col-sm-12">
           <div class="botones-modal t-center">
-            <input type="reset" name="" value="Cancelar" class="b-modal b-gris" id="close-modal"><button type="submit" class="b-modal">Guardar</button>
+            <input type="reset" name="" value="Cancelar" class="b-modal b-gris" id="close-modal">
+            <button type="button" class="b-modal" id="push-boton">Guardar</button>
           </div>
         </div>
 
