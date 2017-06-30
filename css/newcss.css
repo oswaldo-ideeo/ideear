@@ -193,7 +193,7 @@ button{
 	border-top: 1px solid #bec6d3;
 }
 
-.config-sms{
+.config-modal{
 	position: fixed;
 	z-index: 9999;
 	background-color: #fff;
@@ -213,7 +213,211 @@ button{
 	z-index: 9990
 }
 
+.m-item{
+	margin-top: 2rem;
+}
 
+.n-text, .sub-t{
+	color: #2a86ca;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	margin-bottom: 1.5rem;
+}
+
+.n-in, .n-canal{
+	width: 100%;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	font-size: 1.5rem;
+	border-bottom: 1px solid #bec6d3;
+	height: 40px;
+	padding: 1rem;
+}
+
+.n-in:focus{
+	outline: none;
+}
+
+.n-canal img{
+	width: 25px;
+}
+
+.m-item textarea{
+	width: 100%;
+	background-color: #edf0f5;
+	border: none;
+}
+
+.caja-select-m select{
+	border: none;
+	background-color: rgba(0,0,0,0);
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+.caja-select-m{
+	border: 1px solid #bec6d3;
+	border-radius: 8px;
+	width: 80%;
+	display: inline-block;
+	padding: 0.5rem;
+	margin: 1rem 0;
+}
+
+.num-horas{
+	border: 1px solid #bec6d3;
+	background-color: rgba(0,0,0,0);
+	border-radius: 8px;
+	padding: 0.5rem;
+	width: 50px;
+}
+
+.select-small{
+	width: 100px;
+}
+
+#add-enviar{
+	font-size: 2.5rem;
+	color: #55acee;
+	cursor: pointer;
+	transform: translateY(3px);
+	-webkit-transform: translateY(3px);
+	-ms-transform: translateY(3px);
+}
+
+.radio-caja label{
+	font-size: 1.3rem;
+	font-weight: normal;
+}
+
+.b-modal{
+	padding: 1rem 3rem;
+	background-color: #55acee;
+	border-radius: 20px;
+	border: none;
+	color: #fff;
+	font-weight: 100;
+	margin: 0 1rem;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.b-gris{
+	background-color: #bec6d3;
+	box-shadow: none;
+}
+
+.modal-head{
+	color: #2a86ca;
+	font-weight: 100;
+}
+
+.espacio-modal{
+	height: 70px;
+}
+
+
+.no-pad{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.space-down{
+	margin-bottom: 2rem;
+}
+
+.m-archivo{
+	text-decoration: underline;;
+	font-weight: 300;
+	color: #2a86ca;
+}
+
+.sub-t{
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+/*diagrama*/
+
+.inicio-camp{
+	margin: 0 auto;
+	width: 250px;
+	border: 1px solid #e1e1e1;
+	padding: 1rem;
+}
+
+.circulo{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	border-radius: 100%;
+}
+
+.primero{
+	padding-bottom: 1rem;
+}
+
+.segundo{
+	border-top: 1px solid #e1e1e1;
+	padding-top: 1rem;
+}
+
+.d-inblock{
+	display: inline-block;
+}
+
+.mas{
+	float: right;
+	color: #55acee;
+	cursor: pointer;
+	font-size: 2.5rem;
+}
+
+
+.naranja{
+	background-color: orange;
+}
+
+
+
+.dos-level-camp{
+	margin: 0 auto;
+	background-color: #e3e3e3;
+	width: 200px;
+	height: 70px;
+	float: left;
+}
+
+.pink{
+	background-color: pink;
+}
+
+
+
+.pop{
+	width: 90vw;
+	height: 90vh;
+	background-color: red;
+}
+
+
+
+.tres-level-camp{
+	margin: 0 auto;
+	background-color: #e3e3e3;
+	width: 200px;
+	height: 70px;
+	float: left;
+}
+
+
+/*diagramafin*/
+
+
+
+#sms, #mail, #call, #push, .modal-dismis{
+	display: none;
+}
 
 @media (max-width: 414px) {
 	.on-xs{
