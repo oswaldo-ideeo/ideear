@@ -1206,5 +1206,15 @@ a.hover-icon-coete:hover{
 }
 
 
+.g-det{
+	color: #55acee;
+	text-decoration: underline;
+	font-weight: bold;
 
+}
+
+.paddin-detonadores-modal{
+	padding-top: 4%;
+	padding-bottom: 2%;
+}
 
