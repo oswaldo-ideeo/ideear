@@ -3,6 +3,8 @@
 		$(this).fadeOut();
 	})
 
+	
+
 	var call = '<div class="pruebc">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+

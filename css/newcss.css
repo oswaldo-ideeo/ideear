@@ -441,10 +441,13 @@ button{
 	display: none;
 }
 
+#inicia-camp{
+	height: 40px;
+}
 
 /*diagramafin*/
 
-.menu-item{
+.menu-item, .menu-item2{
 	width: 200px;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -456,7 +459,7 @@ button{
 	margin-left: -100px;
 }
 
-.menu-item img{
+.menu-item img, .menu-item2{
 	width: 25px;
 	margin-left: 1rem;
 }

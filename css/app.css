@@ -1034,7 +1034,7 @@ p.color-code{
 	padding-bottom: 15px;
 }
 
-a.guardar{
+.guardar{
 	background-color:#55acee;
 	color: white;
 	padding-left: 25px;
@@ -1146,16 +1146,18 @@ tr.hover-table:hover{
 
 
 
-.vertical-menu a {
+.vertical-menu button {
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
     padding-top: 50px;
     margin-left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
 }
 
-a.hover-icon-qr{
+.hover-icon-qr{
 	background-image: url(../images/qr-gris.png);
 	width: 70px;
 	height:70px;
@@ -1164,7 +1166,7 @@ a.hover-icon-qr{
 	margin-top: 30px;
 }
 
-a.hover-icon-qr:hover{
+.hover-icon-qr:hover{
 	background-image: url(../images/qr-b.png);
 	opacity: .8;
 	background-color:#55acee;
@@ -1172,7 +1174,7 @@ a.hover-icon-qr:hover{
 }
 
 
-a.hover-icon-brocha{
+.hover-icon-brocha{
 	background-image: url(../images/brocha-gris.png);
 	width: 70px;
 	height:70px;
@@ -1182,14 +1184,14 @@ a.hover-icon-brocha{
 
 }
 
-a.hover-icon-brocha:hover{
+.hover-icon-brocha:hover{
 	background-image: url(../images/brocha.png);
 	opacity: .8;
 	background-color:#55acee;
 	background-repeat:no-repeat;
 }
 
-a.hover-icon-coete{
+.hover-icon-coete{
 	background-image: url(../images/coete-gris.png);
 	width: 70px;
 	height:70px;
@@ -1198,7 +1200,7 @@ a.hover-icon-coete{
 	margin-top: 30px;
 }
 
-a.hover-icon-coete:hover{
+.hover-icon-coete:hover{
 	background-image: url(../images/coete-b.png);
 	opacity: .8;
 	background-color:#55acee;

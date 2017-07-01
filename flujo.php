@@ -33,19 +33,19 @@
         <div class="col-xs-12 over">
           <div class="sectiondos">
             <div class="add-detonador">
-              <button type="button" id="inica-camp" class="but-det"><span class="fa fa-plus-circle"></span>Agregar denotador inicial</button>
+              <button type="button" id="inicia-camp" class="but-det" type="button"><span class="fa fa-plus-circle"></span>Agregar denotador inicial</button>
             </div>
-            <!--menu
-             <div class="menu-item t-left" id="desplegar-menu2">
+            
+             <div class="menu-item2 t-left" id="desplegar-menu2">
               <ul>
-                <li id="m-impreso"><img src="images/impreso-icon.png" alt=""><span>IMPRESO</span></li>
-                <li id="m-mail"><img src="images/mail-icon.png" alt=""><span>MAILING</span></li>
-                <li id="m-sms"><img src="images/sms-icon.png" alt=""><span>SMS</span></li>
-                <li id="m-call"><img src="images/call-icon.png" alt=""><span>LLAMADA</span></li>
-                <li id="m-push"><img src="images/push-icon.png" alt=""><span>PUSH NOTIFICACIÓN</span></li>
+                <li id="m-impreso2"><img src="images/impreso-icon.png" alt=""><span>IMPRESO</span></li>
+                <li id="m-mail2"><img src="images/mail-icon.png" alt=""><span>MAILING</span></li>
+                <li id="m-sms2"><img src="images/sms-icon.png" alt=""><span>SMS</span></li>
+                <li id="m-call2"><img src="images/call-icon.png" alt=""><span>LLAMADA</span></li>
+                <li id="m-push2"><img src="images/push-icon.png" alt=""><span>PUSH NOTIFICACIÓN</span></li>
               </ul>
             </div>
-            fin menu-->
+           
             <div class="estadisticas-g">
               <div class="fa fa-line-chart grap-uno"><span class="fa-dif on-xs">Estadísticas generales</span></div>
             </div>
@@ -573,9 +573,9 @@
   <div class="row back-white2 no-shadow">
     <div class="col-md-1">
       <div class="vertical-menu">
-        <a class="hover-icon-qr img-responsive" href="#"></a>
-        <a class="hover-icon-brocha img-responsive" href="#"></a>
-        <a class="hover-icon-coete img-responsive" href="#"></a>
+        <button id="v-menu1" class="hover-icon-qr img-responsive" type="button"></button>
+        <button id="v-menu2" class="hover-icon-brocha img-responsive" type="button"></button>
+        <button id="v-menu3" class="hover-icon-coete img-responsive" type="button"></button>
       </div>
   </div>
   <section id="contenido1">
@@ -667,13 +667,13 @@
 
         
         <div class="col-md-12 guardar-col">
-          <a class="guardar" href="#">GUARDAR</a>
+          <button class="guardar" type="button" id="impreso-boton">GUARDAR</button>
         </div>
      </div>
 
      </section>
       
-
+<!--contenido2-->
       <div class="container-fluid" id="contenido2">
                   <div class="row">
                      <div class="col-md-7 col-lg-6">
@@ -769,7 +769,51 @@
                   </div>
                   <!-- -->
                </div>
+<!--contenido3-->
+  <section id="contenido3">
+    <div  class="col-md-11">
+                     <h3 class="list-det">Lista de Detonadores</h3>
+                     <a class="g-det" href="#desplegar-detonadores">Generar Detonador</a>
 
+                     <div class="menu-item t-left" id="desplegar-detonadores">
+                      <ul>
+                       <li id="m-impreso"><img src="images/qr-redondo.png" alt=""><span>CÓDIGO QR</span></li>
+                       <li id="m-mail"><img src="images/trigger-redondo.png" alt=""><span>IMAGEN TRIGGER</span></li>
+                       <li id="m-sms"><img src="images/barras-redondo.png" alt=""><span>CÓDIGO DE BARRAS</span></li>
+                       <li id="m-call"><img src="images/iverify-redondo.png" alt=""><span>IMAGEN VERIFY</span></li>
+                       <li id="m-push"><img src="images/averify-redondo.png" alt=""><span>AUDIO VERIFY</span></li>
+                    </ul>
+                 </div>
+              </div>
+
+              <div class="col-md-11 paddin-detonadores-modal">
+               <div class="col-md-3 col-lg-2 border-content-style2">
+                  <div class="color-white-boton">
+                     <div class="col-md-12 center-img2">
+                        <img src="images/icon-campanas1.png">
+                     </div>
+                     <div style="padding-left: 5px;" class="col-md-12 center-camp">
+                        <p class="nomb-cam">NOMBRE DETONADOR 1</p>
+                        <a  href="#">TIPO: IMAGEN TRIGGER</a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-3 col-lg-2 border-content-style2">
+                  <div class="color-white-boton">
+                     <div class="col-md-12 center-img2">
+                        <img src="images/icon-codigoqr.png">
+                     </div>
+                     <div style="padding-left: 5px;" class="col-md-12 center-camp">
+                        <p class="nomb-cam">NOMBRE DETONADOR 2</p>
+                        <a href="#">TIPO: IMAGEN TRIGGER</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+    </section>
 
 
  </dir>
@@ -788,6 +832,25 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $('#inicia-camp').on('click', function(){
+    $('#desplegar-menu2').slideToggle();
+  })
+    </script>
     <script src="js/diagrama.js"></script>
+    <script>
+      $('#v-menu1').on('click', function(){
+        $('#contenido2, #contenido3').hide();
+        $('#contenido1').show();
+      })
+      $('#v-menu2').on('click', function(){
+        $('#contenido1, #contenido3').hide();
+        $('#contenido2').show();
+      })
+      $('#v-menu3').on('click', function(){
+        $('#contenido2, #contenido1').hide();
+        $('#contenido3').show();
+      })
+    </script>
 </body>
 </html>
