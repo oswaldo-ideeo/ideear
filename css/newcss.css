@@ -432,6 +432,14 @@ button{
 	float: left;
 }
 
+.no-shadow{
+	box-shadow: none;
+}
+
+
+#contenido2, #contenido3{
+	display: none;
+}
 
 
 /*diagramafin*/
