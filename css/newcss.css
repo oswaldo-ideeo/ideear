@@ -468,6 +468,11 @@ button{
 	top: 100px;
 }
 
+.modal-grande{
+	width: 90%;
+	left: 5%;
+}
+
 @media (max-width: 414px) {
 	.on-xs{
 		display: none;
