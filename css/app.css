@@ -1220,3 +1220,8 @@ tr.hover-table:hover{
 	padding-bottom: 2%;
 }
 
+#impreso-boton{
+border-style: solid; 
+border-color:#55acee;
+}
+
