@@ -1,3 +1,7 @@
+<?php $activeDet = "noactive-color"; ?>
+<?php $activeFlujo = "noactive-color"; ?>
+<?php $activeBas = "active-color"; ?>
+<?php $activeUser = "noactive-color"; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

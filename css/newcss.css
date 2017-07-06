@@ -195,7 +195,7 @@ button{
 }
 
 .config-modal{
-	position: fixed;
+	position: absolute;
 	z-index: 9999;
 	background-color: #fff;
 	padding: 2rem;
@@ -482,6 +482,19 @@ button{
 .modal-grande{
 	width: 90%;
 	left: 5%;
+}
+
+@media (max-width: 420px) {
+	.config-modal{
+		width: 95%;
+		left: 2.5%;
+	}	
+}
+@media (max-width: 768px) {
+	.config-modal{
+		width: 80%;
+		left: 10%;
+	}	
 }
 
 @media (max-width: 414px) {
