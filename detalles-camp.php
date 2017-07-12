@@ -2,7 +2,7 @@
 <?php $activeFlujo = "noactive-color"; ?>
 <?php $activeBas = "noactive-color"; ?>
 <?php $activeUser = "noactive-color"; ?>
-
+ <?php $title = 'Campañas'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

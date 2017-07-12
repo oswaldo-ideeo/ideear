@@ -1,21 +1,20 @@
+ <?php $title = 'Registro'; ?>
  <!DOCTYPE html>
  <html>
  <head>
-    <title>Registro</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/app.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <?php include 'includes/header.php'; ?>
+
 </head>
 
 <body class="login">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 logo-home">
+      <div class="col-md-6 logo-home t-center">
        <img class="logo-login" src="images/logo.png">
-       <img src="images/big-data.png">
+       <div class="one-time">
+        <img src="images/big-data.png" id="cambiante">
+        <img src="images/mensaje.png" id="cambiante">
+       </div>
      </div>
 
      <div class="col-md-5 logo-home">
@@ -51,5 +50,32 @@
   </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script>
+      
+      $('.one-time').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        autoplay: true,
+        arrows: false
+});
+
+    </script>
+      <!--<script>
+         var i = 2;
+      var cambiar = setInterval( function(){
+         //$('#cambiante').css( 'background-image', 'url("2.jpg")' );
+         $('.login').animate({
+            opacity: 0
+         }, 'slow', function(){
+            $(this).css( {'background-image': 'url("' + i + '.jpg")'} )
+            .animate({opacity: 1});
+            i++;
+            if ( i == 3 ) { i = 1  };
+         });
+      }, 2000);
+      </script>-->
 </body>
 </html>

@@ -1,4 +1,5 @@
 <?php $active1 = "active-color"; ?>
+ <?php $title = 'Diseño campaña'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

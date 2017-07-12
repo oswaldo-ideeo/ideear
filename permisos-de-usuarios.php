@@ -2,6 +2,7 @@
 <?php $activeFlujo = "noactive-color"; ?>
 <?php $activeBas = "noactive-color"; ?>
 <?php $activeUser = "active-color"; ?>
+ <?php $title = 'Usuarios'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

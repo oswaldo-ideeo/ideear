@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img src="images/logo2.png"></a>
+            <a class="navbar-brand" href="campanas.php"><img src="images/logo2.png"></a>
         </div>
         <!-- Top Menu Items -->
 
@@ -18,9 +18,9 @@
           <form class="navbar-form form-buscar" role="search">
             <div class="input-group add-on">
             <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                <button class="btn btn-default boton-busqueda" type="submit"><i class="glyphicon glyphicon-search"></i></button>
               </div>
-              <input class="form-control search-barra" placeholder="Buscar campaña" name="srch-term" id="srch-term" type="text">
+              <input class="form-control search-barra boton-busqueda" placeholder="Buscar campaña" name="srch-term" id="srch-term" type="text">
             </div>
           </form>
 
@@ -49,13 +49,15 @@
             <a class="menus" href="permisos-de-usuarios.php"><img class="icon-tromp" src="images/icon6.png"><p class="menu-camp">Usuarios</p></a>
           </li>
           
-
+          <div class="arreglo">
           <li>
           <a class="menus2" href="#"><img class="icon-tromp" src="images/youtube-icon.png"><p class="menu-camp">Tutorial</p></a>
          </li>
          <li>
            <p class="powerby">Power by Ideeo</p>
          </li>
+
+         </div>
        </ul>
     </div>
 </nav>

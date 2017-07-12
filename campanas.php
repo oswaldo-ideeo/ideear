@@ -1,3 +1,4 @@
+ <?php $title = 'Campañas'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -74,7 +75,7 @@
                  <p>Potencializa tus campañas
                     incrementando las opciones.</p>
                     <div class="boton-upgrade">
-                        <a class="upgrade" href="#">UPGRADE</a>
+                        <a class="upgrade" href="planes.php">UPGRADE</a>
                     </div>
                 </div>
            </div>
@@ -190,7 +191,7 @@
       </div>
       <div class="modal-butons">
         <button type="button" class="modal-crear-proyecto" data-dismiss="modal">Cancelar</button>
-        <button type="button" onclick="window.location.href='flujo.php' " class="modal-crear-proyecto2">Crear</button>
+        <button type="button" onclick="window.location.href='detalles-camp.php' " class="modal-crear-proyecto2">Crear</button>
       </div>
     </div>
   </div>

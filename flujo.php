@@ -2,6 +2,7 @@
 <?php $activeFlujo = "active-color"; ?>
 <?php $activeBas = "noactive-color"; ?>
 <?php $activeUser = "noactive-color"; ?>
+ <?php $title = 'Flujo de la campaña'; ?>
 <!DOCTYPE html>
 <html lang="es">
    <head>
@@ -30,7 +31,13 @@
                         <div class="add-detonador">
                            <button type="button" id="inicia-camp" class="but-det" type="button"><span class="fa fa-plus-circle"></span>Agregar denotador inicial</button>
                         </div>
-                        <div class="menu-item2 t-left" id="desplegar-menu2">
+                       
+                        <div class="estadisticas-g">
+                           <div class="fa fa-line-chart grap-uno"><span class="fa-dif on-xs">Estadísticas generales</span></div>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="menu-item2 t-left" id="desplegar-menu2">
                            <ul>
                               <li id="m-impreso2"><img src="images/impreso-icon.png" alt=""><span>IMPRESO</span></li>
                               <li id="m-mail2"><img src="images/mail-icon.png" alt=""><span>MAILING</span></li>
@@ -39,11 +46,6 @@
                               <li id="m-push2"><img src="images/push-icon.png" alt=""><span>PUSH NOTIFICACIÓN</span></li>
                            </ul>
                         </div>
-                        <div class="estadisticas-g">
-                           <div class="fa fa-line-chart grap-uno"><span class="fa-dif on-xs">Estadísticas generales</span></div>
-                        </div>
-                     </div>
-                  </div>
                   <!--diagrama-->
                   <div class="col-xs-12 over">
                      <div class="prueb">
@@ -60,6 +62,8 @@
                               <div class="mas fa fa-plus-circle" id="unos"></div>
                            </div>
                         </div>
+
+
                         <div class="menu-item t-right" id="desplegar-menu">
                            <ul>
                               <li id="m-impreso"><span>IMPRESO</span><img src="images/impreso-icon.png" alt=""></li>
@@ -70,6 +74,14 @@
                            </ul>
                         </div>
                      </div>
+                     <ul class="items-campana">
+                        
+                     </ul>
+
+
+
+
+
                      <!--templates items-->
                      <!--ocultos
                         <div class="prueb">
@@ -509,7 +521,7 @@
                   <div class="col-xs-12 col-sm-12 col-md-5 line-modal">
                      <div class="">
                         <div class="col-md-12">
-                           <h3 class="per-bases">Configurar QR o MQR</h3>
+                           <h3 class="per-bases">Configurar QR o Magic QR</h3>
                         </div>
                         <div class="col-md-12">
                            <br>
@@ -733,6 +745,9 @@
          </div>
       </form>
       <!--modal PUSH fin -->
+
+
+      <strong>hola</strong>
       <script src="js/jquery.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script>
@@ -755,5 +770,7 @@
            $('#contenido3').show();
          })
       </script>
+
+    
    </body>
 </html>

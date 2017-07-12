@@ -1,3 +1,4 @@
+ <?php $title = 'Login'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,9 +8,12 @@
 <body class="login">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 logo-home">
+      <div class="col-md-6 logo-home t-center">
        <img class="logo-login" src="images/logo.png">
-       <img src="images/big-data.png">
+       <div class="one-time">
+        <img src="images/big-data.png" id="cambiante">
+        <img src="images/mensaje.png" id="cambiante">
+       </div>
      </div>
 
      <div class="col-md-5 logo-home">
@@ -34,5 +38,18 @@
 </div>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/slick.js"></script>
+    <script>
+      
+      $('.one-time').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        autoplay: true,
+        arrows: false
+});
+
+    </script>
 </body>
 </html>

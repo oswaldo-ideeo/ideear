@@ -5,7 +5,7 @@
 
 	
 
-	var call = '<div class="pruebc">'+
+	var call = '<li class="pruebc partes-diag">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -19,9 +19,9 @@
 							'<div class="mas fa fa-plus-circle" id="unos"></div>'+
 						'</div>'+
 					'</div>'+
-				'</div>'
+				'</li>'
 
-	var sms = '<div class="pruebs">'+
+	var sms = '<li class="pruebs partes-diag">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -35,9 +35,9 @@
 							'<div class="mas fa fa-plus-circle" id="unos"></div>'+
 						'</div>'+
 					'</div>'+
-				'</div>'
+				'</li>'
 
-	var impreso = '<div class="pruebi">'+
+	var impreso = '<li class="pruebi partes-diag">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -51,9 +51,9 @@
 							'<div class="mas fa fa-plus-circle" id="unos"></div>'+
 						'</div>'+
 					'</div>'+
-				'</div>'
+				'</li>'
 
-	var mail = '<div class="pruebm">'+
+	var mail = '<li class="pruebm partes-diag">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -67,9 +67,9 @@
 							'<div class="mas fa fa-plus-circle" id="unos"></div>'+
 						'</div>'+
 					'</div>'+
-				'</div>'
+				'</li>'
 
-	var push = '<div class="pruebp">'+
+	var push = '<li class="pruebp partes-diag">'+
 		            '<div class="inicio-camp">'+
 						'<div class="primero">'+
 							'<div class="d-inblock">'+
@@ -83,7 +83,7 @@
 							'<div class="mas fa fa-plus-circle" id="unos"></div>'+
 						'</div>'+
 					'</div>'+
-				'</div>'
+				'</li>'
 
 
 
@@ -120,31 +120,31 @@
 //botones modales
 
 	$('#sms-boton').on('click', function(){
-		$('.prueb').after(sms);
+		$('.items-campana').append(sms);
 		$('.menu-item').hide();
 		$('.modal-dismis, #sms').fadeOut();
 	})
 
 	$('#mail-boton').on('click', function(){
-		$('.prueb').after(mail);
+		$('.items-campana').append(mail);
 		$('.menu-item').hide();
 		$('.modal-dismis, #mail').fadeOut();
 	})
 
 	$('#call-boton').on('click', function(){
-		$('.prueb').after(call);
+		$('.items-campana').append(call);
 		$('.menu-item').hide();
 		$('.modal-dismis, #call').fadeOut();
 	})
 
 	$('#impreso-boton').on('click', function(){
-		$('.prueb').after(impreso);
+		$('.items-campana').append(impreso);
 		$('.menu-item').hide();
 		$('.modal-dismis, #impreso').fadeOut();
 	})
 
 	$('#push-boton').on('click', function(){
-		$('.prueb').after(push);
+		$('.items-campana').append(push);
 		$('.menu-item').hide();
 		$('.modal-dismis, #push').fadeOut();
 	})

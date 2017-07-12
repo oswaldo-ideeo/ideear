@@ -836,7 +836,7 @@ text-align:center;
 }
 
 .search-barra{
-width: 700px !important;
+float: left;
 }
 
 img.icon-tromp{
@@ -925,14 +925,13 @@ h3.per-bases{
 }
 
 
-a.butons-reg{
+.butons-reg{
 	background-color:#55acee;
-	padding-left:25px;
-	padding-right:25px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 1rem;
 	border-radius: 50px;
 	color: white;
+	border:none;
+	font-size: 1rem;
 }
 
 
