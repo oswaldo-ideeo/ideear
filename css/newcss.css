@@ -463,13 +463,29 @@ button{
 	margin-left: -100px;
 }
 
-.menu-item img, .menu-item2{
+.menu-item2{
+	left: 270px;
+	top: 250px;
+	margin-left: 0;
+}
+
+.menu-item img{
 	width: 25px;
 	margin-left: 1rem;
 }
 
+.menu-item2 img{
+	width: 25px;
+	margin-right: 1rem;
+}
+
 .menu-item li{
 	margin:1rem 0 0 0;
+	cursor: pointer;
+}
+
+.menu-item2 li{
+	margin-top: 1rem;
 	cursor: pointer;
 }
 
@@ -850,6 +866,9 @@ form.datos-compra input.w-75{
 		width: 80%;
 		left: 10%;
 	}	
+	.menu-item2{
+		left: 40px;
+	}
 }
 
 @media (max-width: 414px) {
@@ -888,6 +907,12 @@ form.datos-compra input.w-75{
 	.config-sms{
 		width: 70%;
 		left: 15%;
+	}
+}
+
+@media (min-width: 1150px) {
+	.menu-item2{
+		top: 200px;
 	}
 }
 
